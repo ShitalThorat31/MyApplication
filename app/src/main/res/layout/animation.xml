@@ -21,26 +21,26 @@
         android:id="@+id/btnAlpha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Alha"
         android:layout_marginTop="100dp"/>
 
     <Button
         android:id="@+id/btnScale"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Scale" />
 
     <Button
         android:id="@+id/btnTranslate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Translate" />
 
     <Button
         android:id="@+id/btnRotate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="Rorate" />
 
 
 </LinearLayout>
