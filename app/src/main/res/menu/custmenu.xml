@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+     <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_baseline_search_24"
+
+        android:title="search"
+        app:showAsAction="ifRoom|collapseActionView"
+         app:actionViewClass="android.widget.SearchView" />
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="Setting"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_share"
+        android:title="Share"
+        app:showAsAction="never">
+   <menu>
+            <item
+                android:id="@+id/action_whatsapp"
+                android:title="WhatsApp"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_facebook"
+                android:title="Facebook"
+                app:showAsAction="never" />
+
+
+        </menu>
+    </item>
+</menu>
