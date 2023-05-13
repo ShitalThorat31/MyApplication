@@ -11,11 +11,13 @@
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/content_main.xml" value="0.1331521739130435" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/cust_toolbar.xml" value="0.1" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/custome_toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/drawer_layout.xml" value="0.1" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/fragment_first.xml" value="0.1331521739130435" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/listactivity.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/login.xml" value="0.24615384615384617" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/lottieanimation.xml" value="0.1" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/mainactivity.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/nav_header.xml" value="0.15789473684210525" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/spinner.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/test.xml" value="0.1" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/test1.xml" value="0.22962962962962963" />
@@ -25,6 +27,7 @@
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/menu/menu.xml" value="0.1" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/menu/menu_main.xml" value="0.1" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/menu/menucust.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/menu/nav_menu.xml" value="0.15789473684210525" />
       </map>
     </option>
   </component>

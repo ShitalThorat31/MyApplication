@@ -15,7 +15,7 @@ class ToolbarActivity: AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu,menu)
+        menuInflater.inflate(R.menu.custom_menu,menu)
         return true
     }
 
@@ -24,12 +24,12 @@ class ToolbarActivity: AppCompatActivity() {
 
             R.id.action_search -> Toast.makeText(this,"About Selected",Toast.LENGTH_SHORT).show()
             R.id.action_settings -> Toast.makeText(this,"Settings Selected",Toast.LENGTH_SHORT).show()
-            R.id.action_share -> {
+           /* R.id.action_share -> {
 
                 Toast.makeText(this,"Exit Selected",Toast.LENGTH_SHORT).show()
                 val intent= Intent(this, Activity2::class.java)
                 startActivity(intent)
-            }
+            }*/
         }
         return super.onOptionsItemSelected(item)
     }
