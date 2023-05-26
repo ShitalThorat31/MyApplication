@@ -4,9 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout-land/activity_main_recycel.xml" value="0.1606425702811245" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout-land/test.xml" value="0.12916666666666668" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_login.xml" value="0.18421052631578946" />
-        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.1320754716981132" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/animation.xml" value="0.1069078947368421" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/content_main.xml" value="0.1331521739130435" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/cust_toolbar.xml" value="0.1" />
@@ -19,6 +20,8 @@
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/lottieanimation.xml" value="0.1" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/mainactivity.xml" value="0.1" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/nav_header.xml" value="0.15789473684210525" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/raw_items.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/retro_with_recycleview.xml" value="0.1" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/spinner.xml" value="0.20512820512820512" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/test.xml" value="0.1" />
         <entry key="..\:/Users/Acer/AndroidStudioProjects/MyApplication/app/src/main/res/layout/test1.xml" value="0.22962962962962963" />
