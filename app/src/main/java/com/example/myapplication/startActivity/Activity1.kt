@@ -24,8 +24,8 @@ class Activity1: AppCompatActivity() {
             val result = age + age2
 
             Toast.makeText(this,"Addition is:"+result,Toast.LENGTH_LONG).show()
-           // val intent= Intent(this,Activity2::class.java)
-            //startActivity(intent)
+           val intent= Intent(this,Activity2::class.java)
+            startActivity(intent)
         }
 
     }
