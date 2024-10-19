@@ -11,7 +11,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
 
-        tools:context=".designs.signInUpValidation.WelcomeActivity"
+        tools:context=".designs.SignInUp_Retrofit_Validation.Ui.WelcomeActivity"
         tools:ignore="MissingConstraints">
 
         <com.google.android.material.imageview.ShapeableImageView

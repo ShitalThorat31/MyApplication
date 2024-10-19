@@ -1,4 +1,4 @@
-package com.shital.myapplication.designs.signInUpValidation
+package com.shital.myapplication.designs.SignInUp_Retrofit_Validation.Ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

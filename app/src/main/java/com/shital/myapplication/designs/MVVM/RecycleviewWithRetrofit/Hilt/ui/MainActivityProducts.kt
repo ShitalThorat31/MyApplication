@@ -15,7 +15,7 @@ import com.shital.myapplication.designs.MVVM.RecycleviewWithRetrofit.Hilt.adapte
 import com.shital.myapplication.designs.MVVM.RecycleviewWithRetrofit.Hilt.viewModel.ProductsViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
-@AndroidEntryPoint
+//@AndroidEntryPoint
 class MainActivityProducts : AppCompatActivity() {
 
 

@@ -13,7 +13,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:name=".designs.MVVM.RecycleviewWithRetrofit.Hilt.ui.MyApplication"
+        android:name=".designs.SignInUp_Retrofit_Validation.Ui.BaseActivity"
         android:theme="@style/Theme.MyApplication">
 
         <!--
@@ -32,17 +32,17 @@
             android:value="AIzaSyCadtIZRsbTkGWpQBkOUJF5kXSaHyJm5J8" />
 
         <activity
-            android:name=".designs.MVVM.RecycleviewWithRetrofit.Hilt.ui.MainActivityProducts"
+            android:name=".designs.SignInUp_Retrofit_Validation.Ui.SignUpActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".designs.signInUpValidation.LoginActivity" />
-        <activity android:name=".designs.signInUpValidation.SignUpActivity" />
-        <activity android:name=".designs.signInUpValidation.HomeActivity" />
-        <activity android:name=".designs.others.SignUpActivityDesign" />
+        <activity android:name=".designs.SignInUp_Retrofit_Validation.Ui.LoginActivity" />
+
+        <activity android:name=".designs.SignInUp_Retrofit_Validation.Ui.HomeActivity" />
+
     </application>
 
 </manifest>

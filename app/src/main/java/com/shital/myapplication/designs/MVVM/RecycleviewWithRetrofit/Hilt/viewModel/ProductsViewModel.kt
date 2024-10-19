@@ -11,7 +11,7 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 import dagger.hilt.android.lifecycle.HiltViewModel
 
-@HiltViewModel
+//@HiltViewModel
 class ProductsViewModel @Inject constructor(private  val productsRepository: ProductsRepository):ViewModel()
 {
 
