@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "857319333239",
+    "project_id": "myapplication-7d4cb",
+    "storage_bucket": "myapplication-7d4cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857319333239:android:06172fd10cb95a43a95572",
+        "android_client_info": {
+          "package_name": "com.shital.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANQCWy9jzimRZOLthpt2mlPj6auyQpFbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

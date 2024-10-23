@@ -2,21 +2,19 @@ package com.shital.myapplication.designs.SignInUp_Retrofit_Validation.Repository
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.shital.myapplication.designs.Hilt.Network.ApiServiceHilt
-import com.shital.myapplication.designs.Hilt.model.PostHilt
-import com.shital.myapplication.designs.SignInUp_Retrofit_Validation.Model.userRequest
-import com.shital.myapplication.designs.SignInUp_Retrofit_Validation.Model.userResponse
+import com.shital.myapplication.designs.SignInUp_Retrofit_Validation.Model.LoginRequest
+import com.shital.myapplication.designs.SignInUp_Retrofit_Validation.Model.LoginResponse
+import com.shital.myapplication.designs.SignInUp_Retrofit_Validation.Model.SignUpRequest
+import com.shital.myapplication.designs.SignInUp_Retrofit_Validation.Model.SignUpResponse
 import com.shital.myapplication.designs.SignInUp_Retrofit_Validation.Network.UserApiService
-import retrofit2.Response
 import javax.inject.Inject
 
 class UserRepository @Inject constructor(private val userApiService: UserApiService) {
 
-    val userLiveData = MutableLiveData<userResponse>()
-    val user: LiveData<userResponse>
+    val userLiveData = MutableLiveData<SignUpResponse>()
+    val user: LiveData<SignUpResponse>
         get() = userLiveData
-
-    suspend fun createUser(userRequest: userRequest)
+    suspend fun createUser(userRequest: SignUpRequest)
             {
                 //val result = userApiService.createUser(userRequest = userRequest("https://www.melivecode.com/users/cat.png","Shital",31,"Thorat","ShitalThorat"))
                 val result = userApiService.createUser(userRequest)
@@ -26,6 +24,24 @@ class UserRepository @Inject constructor(private val userApiService: UserApiServ
 
                     }
             }
+
+            //*********************** LOGIN  **********************************
+
+        val loginLiveData = MutableLiveData<LoginResponse>()
+        val loginuser: LiveData<LoginResponse>
+           get() = loginLiveData
+        suspend fun loginUser(loginRequest: LoginRequest)
+        {
+            //val result = userApiService.createUser(userRequest = userRequest("https://www.melivecode.com/users/cat.png","Shital",31,"Thorat","ShitalThorat"))
+            val result = userApiService.loginUser(loginRequest)
+            if (result.body() != null)
+            {
+                loginLiveData.postValue(result.body())
+
+            }
+        }
+
+
 
 
     /*********************** 2nd method  response in viewmodel **********************************

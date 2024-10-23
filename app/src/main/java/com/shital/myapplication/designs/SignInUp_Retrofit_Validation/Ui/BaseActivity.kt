@@ -5,6 +5,9 @@ import dagger.hilt.android.AndroidEntryPoint
 import dagger.hilt.android.HiltAndroidApp
 
 
-@HiltAndroidApp
-class BaseActivity:Application() {
-}
+//@HiltAndroidApp
+//class BaseActivity:Application() {
+//
+//    //firebase
+//
+//}

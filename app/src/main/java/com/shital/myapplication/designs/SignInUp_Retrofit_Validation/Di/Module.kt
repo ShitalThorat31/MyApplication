@@ -2,6 +2,7 @@ package com.shital.myapplication.designs.SignInUp_Retrofit_Validation.Di
 
 import com.shital.myapplication.designs.MVVM.RecycleviewWithRetrofit.Hilt.network.Constants
 import com.shital.myapplication.designs.MVVM.RecycleviewWithRetrofit.Hilt.network.ProductsApiService
+
 import com.shital.myapplication.designs.SignInUp_Retrofit_Validation.Network.Const
 import com.shital.myapplication.designs.SignInUp_Retrofit_Validation.Network.UserApiService
 import dagger.Module
@@ -30,6 +31,7 @@ class Module {
     fun providesApiService(retrofit: Retrofit): UserApiService {
         return retrofit.create(UserApiService::class.java)
     }
+
 
 
 }

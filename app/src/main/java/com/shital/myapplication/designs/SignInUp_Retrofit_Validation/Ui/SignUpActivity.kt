@@ -4,12 +4,9 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.shital.myapplication.databinding.ActivitySignupBinding
-import com.shital.myapplication.designs.MVVM.RecycleviewWithRetrofit.Hilt.adapter.ProductsAdapter
-import com.shital.myapplication.designs.MVVM.RecycleviewWithRetrofit.Hilt.viewModel.ProductsViewModel
-import com.shital.myapplication.designs.SignInUp_Retrofit_Validation.Model.userRequest
+import com.shital.myapplication.designs.SignInUp_Retrofit_Validation.Model.SignUpRequest
 import com.shital.myapplication.designs.SignInUp_Retrofit_Validation.Viewmodel.UserViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -18,7 +15,7 @@ class SignUpActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySignupBinding
 
     lateinit var userViewModel: UserViewModel
-    lateinit var userRequest: userRequest
+    lateinit var userRequest: SignUpRequest
 
     // private val userViewModel: UserViewModel by viewModels()
 
@@ -34,17 +31,20 @@ class SignUpActivity : AppCompatActivity() {
             val password = binding.password.text.toString()
             val repassword = binding.repassword.text.toString()
 
-            userRequest= userRequest(name, name, name, password, mail, "https://www.melivecode.com/users/cat.png")
+            userRequest= SignUpRequest(name, name, mail, password, mail, "https://www.melivecode.com/users/cat.png")
             userViewModel.registerUser(userRequest)
         }
         userViewModel = ViewModelProvider(this).get(UserViewModel::class.java)
         userViewModel.userLiveData.observe(this, { response ->
-            if (response.status.toBoolean()) {
-                navigateToNextScreen()
-            } else {
-               Log.d("createuser", response.message)
 
-            }
+            startActivity(Intent(this, LoginActivity::class.java))
+            finish()
+//            if (response.status.toBoolean()) {
+//                navigateToNextScreen()
+//            } else {
+//               Log.d("createuser", response.message)
+//
+//            }
 
         })
 
@@ -82,7 +82,7 @@ class SignUpActivity : AppCompatActivity() {
 
     private fun navigateToNextScreen() {
         startActivity(Intent(this, LoginActivity::class.java))
-        finish()
+        //finish()
 
 
     }

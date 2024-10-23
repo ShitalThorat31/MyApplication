@@ -1,6 +1,6 @@
 package com.shital.myapplication.designs.SignInUp_Retrofit_Validation.Model
 
-data class userRequest(
+data class SignUpRequest(
 
     val fname: String,
     val lname: String,
