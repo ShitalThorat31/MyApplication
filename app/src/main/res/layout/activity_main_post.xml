@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".designs.MVVM.RecycleviewWithRetrofit.GETwith_Coroutine.MainActivityGETPost">
+    tools:context=".designs.MVVM.Recycleview_RetrofitAllMethods.GETwith_Coroutine.MainActivityGETPost">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"

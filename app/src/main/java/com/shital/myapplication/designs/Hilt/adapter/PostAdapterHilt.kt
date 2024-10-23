@@ -1,6 +1,5 @@
 package com.shital.myapplication.designs.Hilt.adapter
 
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,7 +7,6 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.shital.myapplication.R
 import com.shital.myapplication.designs.Hilt.model.PostHilt
-import com.shital.myapplication.designs.MVVM.RecycleviewWithRetrofit.GETMethod.model.animalsItem
 
 class PostAdapterHilt  (val list: List<PostHilt>) : RecyclerView.Adapter<PostAdapterHilt.MyViewHolder>() {
 

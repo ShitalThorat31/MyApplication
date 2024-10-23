@@ -13,7 +13,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:name=".designs.SignInUp_Retrofit_Validation.firebase.MyApplication"
+        android:name=".designs.LoginRegis_Retrofit_Validation_withHilt.firebase.MyApplication"
         android:theme="@style/Theme.MyApplication">
 
         <!--
@@ -29,10 +29,12 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCadtIZRsbTkGWpQBkOUJF5kXSaHyJm5J8" />
+            android:value="AIzaSyANQCWy9jzimRZOLthpt2mlPj6auyQpFbc" />
+
+
 
         <activity
-            android:name=".designs.SignInUp_Retrofit_Validation.firebase.AuthActivityLogin"
+            android:name=".designs.LoginRegis_Retrofit_Validation_withHilt.firebase.AuthActivityLogin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,10 +43,10 @@
 
         </activity>
 
-        <activity android:name=".designs.SignInUp_Retrofit_Validation.Ui.LoginActivity"/>
-        <activity android:name=".designs.SignInUp_Retrofit_Validation.Ui.HomeActivity" />
-        <activity android:name=".designs.SignInUp_Retrofit_Validation.Copilot.Login" />
-        <activity android:name=".designs.SignInUp_Retrofit_Validation.firebase.AuthActivityRegistration" />
+        <activity android:name=".designs.LoginRegis_Retrofit_Validation_withHilt.Ui.LoginActivity"/>
+        <activity android:name=".designs.LoginRegis_Retrofit_Validation_withHilt.Ui.HomeActivity" />
+        <activity android:name=".designs.LoginRegis_Retrofit_Validation_withHilt.Copilot.Login" />
+        <activity android:name=".designs.LoginRegis_Retrofit_Validation_withHilt.firebase.AuthActivityRegistration" />
 
 
     </application>
